@@ -1,7 +1,7 @@
 
 from fastapi import FastAPI, HTTPException
 import openai
-from agent import graph_app
+from agent3 import graph_app
 #from demo import graph_app
 from prompt import travel_visa,study_visa,work_visa
 from dotenv import load_dotenv
